@@ -1,0 +1,66 @@
+html {
+  color-scheme: dark;
+  zoom: 1.5;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+form {
+  display: flex;
+  column-gap: 6px;
+}
+
+form input {
+  font-size: 1.2rem;
+  width: 12rem;
+  border: none;
+  outline: none;
+  padding-inline: 4px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+form button {
+  color: white;
+  background: rgb(0, 153, 255);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+
+ol li {
+  font-size: 1.1rem;
+}
+
+ol li button {
+  background: none;
+  border: none;
+}
